@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+
+  <title>CatBot</title>
+</head>
+<body>
+  <div id="user-modal" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Bem vindo ao CatBot!</h4>
+        </div>
+        <div class="modal-body">
+          <p>Digite seu nome: </p>
+          <input id="user-text" class="col-xs-12" type="text">
+        </div>
+          <div class="modal-footer">
+            <button id="user-submit" type="button" class="btn btn-primary">Entrar</button>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <ul id="messages"></ul>
+
+  <form id="chat" action="">
+    <input id="m" autocomplete="off"/>
+    <button>Enviar</button>
+  </form>
+
+  <script src="js/lib/jquery-2.2.1.min.js"></script>
+  <script src="js/lib/bootstrap.min.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="js/app/app.js"></script>
+  <script src="js/app/chat/chat.js"></script>
+</body>
+</html>
