@@ -1,6 +1,4 @@
-# Chatbot 
-
-This app is just [socket.io](https://socket.io) extended tutorial , it has a chat for users and a chatbot mode where you can just talk to a bot with very simple answers.
+# CatBot
 
 To run the project:
 
