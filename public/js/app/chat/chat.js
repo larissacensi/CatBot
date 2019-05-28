@@ -27,7 +27,9 @@ app.chat = (function () {
     }
 );
     socket.on('chat message', function (data) {
-      $('#messages').append($('<li>').text('[' + data.socketId + '] ' + data.username + ': ' + data.msg));
+      //$('#messages').append($('<li>').text('[' + data.socketId + '] ' + data.username + ': ' + data.msg));
+	  
+      $('#messages').append($('<li>').text(data.username + ': ' + data.msg));
     });
   };
 
