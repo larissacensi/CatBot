@@ -15,3 +15,9 @@ To run the project:
 To test the project:
 
         npm test
+
+
+# Trabalho de redes de computadores
+
+- Implementado DNS com domínio **catbot.com** 
+- Utilizado Apache2 como servidor web
